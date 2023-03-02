@@ -105,8 +105,7 @@ const CreateNew = (props) => {
       <form onSubmit={handleSubmit}>
         <div>
           content
-          {...content}
-          />
+          <input {...content} />
         </div>
         <div>
           author
